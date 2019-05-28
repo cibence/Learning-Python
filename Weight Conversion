@@ -1,0 +1,9 @@
+Weight = int(input("Weight: "))
+Selection = input("(L)bs or (K)g: ")
+
+if Weight == "L":
+    K_Converted = Weight*0.45
+    print(f'Your weight is {K_Converted} Kilograms.')
+else:
+    P_Converted = Weight/0.45
+    print(f'Your weight is {P_Converted} Pounds.')
